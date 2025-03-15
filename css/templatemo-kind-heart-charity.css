@@ -44,7 +44,7 @@
   --primary-color:                #008000;
   --secondary-color:              #2f90ff;
   --section-bg-color:             #f0f8ff;
-  --site-footer-bg-color:         #44445d;
+  --site-footer-bg-color:         #f0f8ff;
   --custom-btn-bg-color:          #425080;
   --custom-btn-bg-hover-color:    #008000;
   --dark-color:                   #000000;
@@ -1324,7 +1324,7 @@ blockquote::before {
 
 .footer-menu-link {
   font-size: var(--p-font-size);
-  color: var(--white-color);
+  color: var(--dark-color);
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
