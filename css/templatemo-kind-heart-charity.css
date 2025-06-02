@@ -1653,3 +1653,18 @@ blockquote::before {
   }
 }
 
+.fixed-img {
+  width: 100%; /* or a fixed value like 300px */
+  height: 300px; /* set a consistent height */
+  object-fit: cover; /* ensures image fills space without distortion */
+  object-position: center;
+  display: block;
+}
+.fixed-img:hover {
+  transform: scale(1.05); /* slight zoom on hover */
+  transition: transform 0.3s ease; /* smooth transition */
+}
+.fixed-img:active {
+  transform: scale(1); /* reset zoom on click */
+  transition: transform 0.1s ease; /* quick reset transition */
+}
