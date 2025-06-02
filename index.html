@@ -588,9 +588,21 @@
                             <form class="custom-form contact-form" action="#" method="post" role="form">
                                 <h2>See Our Gallery</h2>
                                 
-                                <div class="row">
-                                   <a href="gallery.html"><img src="images/causes/gallery.png" class="news-image img-fluid" alt=""></a>
-                                </div>
+                                <div class="col-md-5">
+                                    <div class="video-container">
+                                       <div class="fb-video" 
+                                           data-href="https://www.facebook.com/share/p/1A61Zvnbjz/" 
+                                           data-width="800" 
+                                           data-show-text="false">
+                                       </div>
+                                   </div>
+
+                                   <!-- Load Facebook SDK for JavaScript -->
+                                   <div id="fb-root"></div>
+                                   <script async defer crossorigin="anonymous" 
+                                       src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0" 
+                                       nonce="YOUR_NONCE_VALUE"></script>
+                                 </div>
                                 <p class="mt-4">Or, you can just send an email:
                                     <a href="#">alawwamfoundation@gmail.com</a>
                                 </p>
